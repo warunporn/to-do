@@ -19,3 +19,13 @@ model Todo {
 
   @@map("todos")
 }
+
+model Inventory {
+  id       String @id
+  name     String
+  sku      String
+  quantity Int
+  zone     String
+
+  @@map("products")
+}

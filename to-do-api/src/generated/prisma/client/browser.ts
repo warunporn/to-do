@@ -22,3 +22,8 @@ export * from './enums';
  * 
  */
 export type Todo = Prisma.TodoModel
+/**
+ * Model Inventory
+ * 
+ */
+export type Inventory = Prisma.InventoryModel

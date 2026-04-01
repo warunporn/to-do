@@ -46,3 +46,8 @@ export { Prisma }
  * 
  */
 export type Todo = Prisma.TodoModel
+/**
+ * Model Inventory
+ * 
+ */
+export type Inventory = Prisma.InventoryModel
